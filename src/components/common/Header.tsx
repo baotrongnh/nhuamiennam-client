@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Icon } from "@iconify/react";
+import { Icon } from "@iconify/react"
 import AnnBar from './annBar'
 
 export default function Header() {

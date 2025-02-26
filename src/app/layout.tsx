@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import "./globals.css"
-import '@mantine/core/styles.css'
 import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from '@mantine/core';
+import '@mantine/core/styles.css';
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nhựa Miền Nam",
+  title: "NHỰA MIỀN NAM - Mũ bảo hiểm giá gốc",
   description: "Mũ bảo hiểm giá gốc",
 };
 

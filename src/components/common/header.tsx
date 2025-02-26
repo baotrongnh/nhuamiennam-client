@@ -51,12 +51,10 @@ export default function Header() {
                                    <li key={index} className=''>
                                         <Link
                                              href={item.src}
-                                             className={
-                                                  clsx(
-                                                       'py-2 px-4 rounded-md duration-100',
-                                                       pathName === item.src ? 'font-bold' : 'font-semibold',
-                                                  )
-                                             }
+                                             className={clsx(
+                                                  'py-2 px-4 rounded-md duration-100',
+                                                  pathName === item.src ? 'font-bold' : 'font-semibold',
+                                             )}
                                         >
                                              {item.name.toUpperCase()}
                                         </Link>
